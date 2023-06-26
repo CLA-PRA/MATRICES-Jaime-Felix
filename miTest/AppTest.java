@@ -35,7 +35,7 @@ class AppTest {
             {10, 10, 10}
         };
 
-        // Datos de la multiplicación de A * B
+        // Datos de la multiplicacion de A * B
         int[][] datosMultiplica = {
             {30, 24, 18},
             {84, 69, 54},
