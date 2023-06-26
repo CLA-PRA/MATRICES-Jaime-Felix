@@ -62,7 +62,7 @@ public class Matriz
 		this.datos = datos;
 	}
 
-	// Métodos get (No hay métodos set)
+	// Metodos get (No hay metodos set)
 	public int getRenglones()
 	{
 		return 0;
@@ -75,7 +75,7 @@ public class Matriz
 
 	public Matriz suma( Matriz otra )
 	{
-		// Se supone que las matrices son del mismo tamaño
+		// Se supone que las matrices son del mismo tamano
 		int[][] temporal = new int[ renglones ][ columnas ];
 
 		// Ciclo anidado para la suma de matrices
@@ -85,11 +85,11 @@ public class Matriz
 
 	public Matriz multiplica( Matriz otra )
 	{
-		// Se supone que el número de columnas de this es igual al número de renglones de otra
-		// La matriz resultante tiene el número de renglones de this y el número de columnas de otra
+		// Se supone que el numero de columnas de this es igual al numero de renglones de otra
+		// La matriz resultante tiene el numero de renglones de this y el numero de columnas de otra
 		int[][] temporal = new int[ this.renglones ][ otra.columnas ];
 
-		// Ciclo triple anidado para multiplicación de matrices
+		// Ciclo triple anidado para multiplicacion de matrices
 
 		return new Matriz( this.renglones, otra.columnas, temporal );
 	}
